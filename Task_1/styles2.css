@@ -1,0 +1,31 @@
+/* styles.css */
+body, h1, p, strong {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a background color to the body */
+  body {
+    background-color: #e0e0e0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Center content vertically and horizontally */
+  .survey-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  /* Style for the thank you message */
+  #thankYouMessage {
+    text-align: center;
+  }
+  
+  /* Bold dynamic content */
+  #dynamicEmail, #dynamicContact {
+    font-weight: bold;
+  }
+  
